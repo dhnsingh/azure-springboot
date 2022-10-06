@@ -11,7 +11,7 @@ public class AzureSpringbootApplication {
 	
 	@GetMapping("/message")
 	public String message(){
-		return "this is the first commit....";
+		return "this is the first commit....  ! Congrats";
 	}
 
 	public static void main(String[] args) {
@@ -19,3 +19,4 @@ public class AzureSpringbootApplication {
 	}
 
 }
+! 

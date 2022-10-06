@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @RestController
 public class AzureSpringbootApplication {
 	
-	GetMapping("/message")
+	@GetMapping("/message")
 	public String message(){
 		return "this is the forst commit....";
 	}

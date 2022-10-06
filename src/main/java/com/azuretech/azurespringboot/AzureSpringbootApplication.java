@@ -11,7 +11,7 @@ public class AzureSpringbootApplication {
 	
 	@GetMapping("/message")
 	public String message(){
-		return "this is the forst commit....";
+		return "this is the first commit....";
 	}
 
 	public static void main(String[] args) {
